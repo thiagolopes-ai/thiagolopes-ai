@@ -17,7 +17,7 @@
 
 Venho da área jurídica e migrei para Inteligência Artificial trazendo comigo o que aprendi lá: ler grandes volumes de texto, extrair o que importa e transformar isso em decisão. Hoje aplico o mesmo raciocínio construindo software.
 
-Meu foco de estudo está em **LLMs aplicados a documentos** — extração, estruturação e recuperação de informação em textos longos e mal formatados, que é exatamente o tipo de problema que mais aparece no dia a dia de empresas.
+Meu foco de estudo está em **LLMs e machine learning aplicados a documentos** — extração, estruturação, classificação e recuperação de informação em textos longos e mal formatados, que é exatamente o tipo de problema que mais aparece no dia a dia de empresas.
 
 - Estudando: engenharia de contexto, RAG e avaliação de saídas de modelos
 - Trabalhando em: `poda`, um otimizador de tokens que converte URLs e PDFs em Markdown limpo
@@ -56,11 +56,17 @@ Meu foco de estudo está em **LLMs aplicados a documentos** — extração, estr
 
 ## Projetos em destaque
 
-### [poda](https://github.com/thiagolopes-ai/poda)
+### [poda](https://github.com/thiagolopes-ai/poda) · [poda.digital](https://poda.digital)
 
-Otimizador de tokens via WhatsApp. Recebe URLs e PDFs e devolve Markdown limpo, reduzindo o custo de contexto enviado a modelos de linguagem.
+Otimizador de tokens via WhatsApp. Recebe URLs e PDFs e devolve Markdown limpo. Medido em 9 páginas de tipos diferentes: **81,3% de redução de tokens**, com benchmark reproduzível no repositório.
 
-`Python` · `Processamento de documentos` · `LLM`
+`Python` · `FastAPI` · `LLM` · `Processamento de documentos`
+
+### [classificador-juridico](https://github.com/thiagolopes-ai/classificador-juridico)
+
+Classificação de textos jurídicos em 17 áreas do direito sobre 10.594 artigos reais. **78,5% de acurácia** com modelos clássicos, incluindo análise de vazamento por duplicata e ablação de entrada. Documenta também um experimento com dados sintéticos que falhou, e por quê.
+
+`Python` · `scikit-learn` · `NLP` · `Classificação de texto`
 
 ---
 
